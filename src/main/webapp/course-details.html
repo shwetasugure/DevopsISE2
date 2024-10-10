@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Details</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            /* Ensures footer is at the bottom */
+        }
+
+        header {
+            background-color: #2196F3;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            background-color: #ffffff;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #2196F3;
+            border-bottom: 2px solid #2196F3;
+            padding-bottom: 5px;
+        }
+
+        a {
+            color: #2196F3;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 15px;
+            /* Space above the enroll link */
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #1976D2;
+            /* Darker shade on hover */
+        }
+
+        p {
+            line-height: 1.6;
+            margin: 10px 0;
+            /* Spacing between paragraphs */
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: #fff;
+            width: 100%;
+            margin-top: auto;
+            /* Push footer to the bottom */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Course Details</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="instructors.html">Instructors</a>
+            <a href="enroll.html">Enroll</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Course: Web Development</h2>
+        <p>This course covers HTML, CSS, JavaScript, and backend technologies like Node.js and Express.</p>
+        <p>Duration: 12 Weeks</p>
+        <p>Instructor: <a href="instructors.html#john_doe">Professor John</a></p>
+        <a href="enroll.html">Enroll in this course</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Online Course Catalog</p>
+    </footer>
+</body>
+
+</html>
